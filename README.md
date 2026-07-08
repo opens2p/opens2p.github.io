@@ -40,8 +40,11 @@ language object in `i18n.js` or that string will silently stay in English for ot
 
 - **Contact form**: connected — posts to `https://formspree.io/f/mykqaqpw` (Formspree
   account under `opens2p@gmail.com`). Submissions forward to that inbox automatically.
-- Sponsor button points to `https://github.com/sponsors/opens2p` — set up GitHub Sponsors
-  (or swap for an Open Collective link) before this goes live, or the link will 404.
-- `CONTRIBUTING.md` is linked from the Contribute section — make sure it exists in the repo.
+- **Analytics**: connected — GoatCounter, dashboard at `opens2p.goatcounter.com` (visits,
+  referrers, countries).
+- Sponsor button points to `https://github.com/sponsors/opens2p` — GitHub Sponsors
+  application in progress; link will 404 until the account is approved.
+- `CONTRIBUTING.md` is linked from the Contribute section — lives in the `OpenS2P` code
+  repo (`github.com/opens2p/OpenS2P`), confirmed working.
 - LinkedIn footer link points to `linkedin.com/company/opens2p` — create the Company Page
   first (see `linkedin_content.md`) or the link will 404 until then.
