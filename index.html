@@ -1,18 +1,212 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>OpenS2P</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenS2P — The Open Operating System for Procurement AI</title>
+<meta name="description" content="OpenS2P is a free, open-source, AI-native Source-to-Pay platform. API-first, event-driven, vendor-neutral, Apache 2.0.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>OpenS2P</h1>
 
-<p>
-Open Source AI-Native Source-to-Pay Platform
-</p>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="logo">Open<span>S2P</span></a>
+    <nav class="main-nav">
+      <a href="#mission" data-i18n="nav_vision">Vision</a>
+      <a href="#roadmap" data-i18n="nav_roadmap">Roadmap</a>
+      <a href="#products" data-i18n="nav_products">Products</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+      <a href="#contribute" data-i18n="nav_contribute">Contribute</a>
+      <a href="#sponsor" data-i18n="nav_sponsor">Sponsor</a>
+      <a href="https://github.com/opens2p" target="_blank" rel="noopener" data-i18n="nav_github">GitHub</a>
+    </nav>
+    <select id="lang-switcher" class="lang-switcher" aria-label="Language"></select>
+  </div>
+</header>
 
-<p>
-Coming Soon
-</p>
+<main>
 
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow" data-i18n="hero_eyebrow">Open Source · Apache 2.0</p>
+      <h1 data-i18n="hero_title">The Open Operating System for Procurement AI</h1>
+      <p class="hero-sub" data-i18n="hero_sub">OpenS2P is a free, open-source Source-to-Pay platform built API-first, event-driven, and AI-native from day one — so any organization, anywhere, can run modern procurement without vendor lock-in.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#contact" data-i18n="hero_cta_demo">Request a Live Demo</a>
+        <a class="btn btn-secondary" href="https://github.com/opens2p" target="_blank" rel="noopener" data-i18n="hero_cta_github">View on GitHub</a>
+        <a class="btn btn-secondary" href="#sponsor" data-i18n="hero_cta_sponsor">Become a Sponsor</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="mission" class="section">
+    <div class="container">
+      <h2 data-i18n="mission_title">Our Mission</h2>
+      <p data-i18n="mission_text">Enterprise procurement remains one of the least automated, most fragmented areas of business operations. Organizations spend 70–85% of their procurement cycles on low-value data entry, status chasing, and manual exception handling. OpenS2P exists to change that — a vendor-neutral, API-first, AI-augmented procurement platform, built in the open, for everyone.</p>
+
+      <h3 class="sub-heading" data-i18n="goals_title">What we're building</h3>
+      <ul class="goal-grid">
+        <li data-i18n="goal_1">Modern Procurement</li>
+        <li data-i18n="goal_2">Supplier Management</li>
+        <li data-i18n="goal_3">Strategic Sourcing</li>
+        <li data-i18n="goal_4">Contract Lifecycle Management</li>
+        <li data-i18n="goal_5">AI Copilot</li>
+        <li data-i18n="goal_6">Spend Analytics</li>
+        <li data-i18n="goal_7">Open APIs</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="architecture" class="section alt">
+    <div class="container">
+      <h2 data-i18n="arch_title">Architecture Principles</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4 data-i18n="arch_1_title">Cloud Native</h4>
+          <p data-i18n="arch_1_text">Kubernetes-first, containerized, no bare-metal lock-in.</p>
+        </div>
+        <div class="card">
+          <h4 data-i18n="arch_2_title">AI Native</h4>
+          <p data-i18n="arch_2_text">Agents, confidence scoring, and human-in-the-loop gates are first-class, not bolted on.</p>
+        </div>
+        <div class="card">
+          <h4 data-i18n="arch_3_title">API First</h4>
+          <p data-i18n="arch_3_text">Every capability is an API before it's a UI.</p>
+        </div>
+        <div class="card">
+          <h4 data-i18n="arch_4_title">Event Driven</h4>
+          <p data-i18n="arch_4_text">Domain boundaries crossed only via typed, versioned events.</p>
+        </div>
+        <div class="card">
+          <h4 data-i18n="arch_5_title">Enterprise Secure</h4>
+          <p data-i18n="arch_5_text">Zero-trust posture, policy-as-code, PII-safe AI pipelines.</p>
+        </div>
+        <div class="card">
+          <h4 data-i18n="arch_6_title">Vendor Neutral</h4>
+          <p data-i18n="arch_6_text">Swap cloud, LLM, or ERP providers — no strategic lock-in.</p>
+        </div>
+        <div class="card">
+          <h4 data-i18n="arch_7_title">Open Source Friendly</h4>
+          <p data-i18n="arch_7_text">Apache 2.0, public ADRs, and a low barrier to contribute.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="roadmap" class="section">
+    <div class="container">
+      <h2 data-i18n="roadmap_title">Roadmap</h2>
+      <ol class="timeline">
+        <li><span class="tag">v0.1</span><div><strong data-i18n="rm_01_t">Foundation</strong><p data-i18n="rm_01_x">Authentication, User Management, Organization Management, Database Framework</p></div></li>
+        <li><span class="tag">v0.2</span><div><strong data-i18n="rm_02_t">Suppliers</strong><p data-i18n="rm_02_x">Supplier Management, Registration, Qualification</p></div></li>
+        <li><span class="tag">v0.3</span><div><strong data-i18n="rm_03_t">Procurement Operations</strong><p data-i18n="rm_03_x">Purchase Requisition, Approval Workflow, Purchase Orders</p></div></li>
+        <li><span class="tag">v0.4</span><div><strong data-i18n="rm_04_t">Invoicing</strong><p data-i18n="rm_04_x">Goods Receipt, Invoice Management, Matching</p></div></li>
+        <li><span class="tag">v0.5</span><div><strong data-i18n="rm_05_t">Strategic Sourcing</strong><p data-i18n="rm_05_x">RFQ, RFP, Auctions</p></div></li>
+        <li><span class="tag">v0.6</span><div><strong data-i18n="rm_06_t">Contracts</strong><p data-i18n="rm_06_x">Contract Lifecycle Management</p></div></li>
+        <li><span class="tag">v0.7</span><div><strong data-i18n="rm_07_t">Analytics</strong><p data-i18n="rm_07_x">Spend Analytics, Dashboards</p></div></li>
+        <li><span class="tag tag-final">v1.0</span><div><strong data-i18n="rm_10_t">AI Copilot &amp; Production Release</strong><p data-i18n="rm_10_x">General availability</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="products" class="section alt">
+    <div class="container">
+      <h2 data-i18n="products_title">Try It Now — Live MVP Demos</h2>
+      <p data-i18n="products_sub">Two applications built on the OpenS2P platform are live and ready to demo for interested organizations.</p>
+      <div class="card-grid two-col">
+        <div class="card product-card">
+          <h4 data-i18n="product_procura_title">Procura AI</h4>
+          <p data-i18n="product_procura_text">An AI copilot for procurement teams — sourcing, supplier discovery, and purchase workflows accelerated by autonomous, human-supervised agents.</p>
+        </div>
+        <div class="card product-card">
+          <h4 data-i18n="product_contractedge_title">ContractEdge</h4>
+          <p data-i18n="product_contractedge_text">AI-powered Contract Risk Analyzer — clause extraction, risk scoring, and obligation tracking across your contract portfolio.</p>
+        </div>
+      </div>
+      <div class="center-cta">
+        <a class="btn btn-primary" href="#contact" data-i18n="products_cta">Request a Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 data-i18n="contact_title">Get in Touch</h2>
+      <p data-i18n="contact_sub">Tell us a bit about yourself and what you're interested in — we'll follow up personally.</p>
+      <!-- Replace YOUR_FORM_ID below with your Formspree form ID (see website/README.md) -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="hidden" name="_subject" value="New OpenS2P website inquiry">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="form-row">
+          <label for="cf-name" data-i18n="form_name_label">Full name</label>
+          <input id="cf-name" name="name" type="text" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-email" data-i18n="form_email_label">Email</label>
+          <input id="cf-email" name="email" type="email" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-org" data-i18n="form_org_label">Organization (optional)</label>
+          <input id="cf-org" name="organization" type="text">
+        </div>
+        <div class="form-row">
+          <label for="cf-interest" data-i18n="form_interest_label">I'm interested in</label>
+          <select id="cf-interest" name="interest" required>
+            <option value="procura_ai" data-i18n="opt_procura">Procura AI demo</option>
+            <option value="contractedge" data-i18n="opt_contractedge">ContractEdge demo</option>
+            <option value="both_products" data-i18n="opt_both_products">Both product demos</option>
+            <option value="contributing" data-i18n="opt_contribute">Contributing to the platform</option>
+            <option value="sponsoring" data-i18n="opt_sponsor">Sponsoring OpenS2P</option>
+            <option value="other" data-i18n="opt_other">Something else</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="cf-message" data-i18n="form_message_label">Message (optional)</label>
+          <textarea id="cf-message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" data-i18n="form_submit">Send</button>
+        <p class="form-note" data-i18n="form_note">We'll reply from opens2p@gmail.com — no spam, ever.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="contribute" class="section">
+    <div class="container">
+      <h2 data-i18n="contribute_title">Build With Us</h2>
+      <p data-i18n="contribute_text">OpenS2P is built in the open under Apache 2.0. Whether you're an engineer, architect, security researcher, technical writer, or procurement domain expert — there's a place for you.</p>
+      <ul class="bullet-list">
+        <li data-i18n="contribute_bullet_1">Browse good-first-issues</li>
+        <li data-i18n="contribute_bullet_2">Read the Architecture Vision</li>
+        <li data-i18n="contribute_bullet_3">Join RFC discussions</li>
+        <li data-i18n="contribute_bullet_4">Follow the ADR process</li>
+      </ul>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://github.com/opens2p" target="_blank" rel="noopener" data-i18n="contribute_cta_repo">View the Repository</a>
+        <a class="btn btn-secondary" href="https://github.com/opens2p/opens2p.github.io/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener" data-i18n="contribute_cta_guide">Read Contributing Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sponsor" class="section alt">
+    <div class="container">
+      <h2 data-i18n="sponsor_title">Sponsor OpenS2P</h2>
+      <p data-i18n="sponsor_text">OpenS2P will always be free and open source. Sponsorship funds core infrastructure, security audits, and the AI evaluation program that keeps the platform enterprise-ready — for every organization, not just the ones who can afford proprietary S2P suites.</p>
+      <div class="center-cta">
+        <a class="btn btn-primary" href="https://github.com/sponsors/opens2p" target="_blank" rel="noopener" data-i18n="sponsor_cta">Become a Sponsor</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p data-i18n="footer_rights">© 2026 OpenS2P Core Team · Apache 2.0 License</p>
+    <p><a href="mailto:opens2p@gmail.com" data-i18n="footer_contact">Contact</a> · <a href="https://www.linkedin.com/company/opens2p" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/opens2p" target="_blank" rel="noopener">GitHub</a></p>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
 </body>
 </html>
