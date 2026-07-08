@@ -38,10 +38,8 @@ language object in `i18n.js` or that string will silently stay in English for ot
 
 ## Known placeholders to fill in before promoting the site
 
-- **Contact form**: the `#contact` section's `<form>` posts to
-  `https://formspree.io/f/YOUR_FORM_ID` — sign up free at formspree.io with
-  `opens2p@gmail.com`, create a form, and replace `YOUR_FORM_ID` in `index.html` with the
-  real ID. Until this is done, submissions will fail.
+- **Contact form**: connected — posts to `https://formspree.io/f/mykqaqpw` (Formspree
+  account under `opens2p@gmail.com`). Submissions forward to that inbox automatically.
 - Sponsor button points to `https://github.com/sponsors/opens2p` — set up GitHub Sponsors
   (or swap for an Open Collective link) before this goes live, or the link will 404.
 - `CONTRIBUTING.md` is linked from the Contribute section — make sure it exists in the repo.
