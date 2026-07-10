@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>v0.7.1 Enterprise MVP — OpenS2P Release Notes</title>
+<meta name="description" content="OpenS2P v0.7.1 Enterprise MVP Baseline: full Source-to-Pay lifecycle, enterprise security, integrations, analytics, and a modern web experience.">
+<link rel="stylesheet" href="../style.css">
+<script data-goatcounter="https://opens2p.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../index.html" class="logo">Open<span>S2P</span></a>
+    <nav class="main-nav">
+      <a href="../index.html#mission">Vision</a>
+      <a href="../index.html#roadmap">Roadmap</a>
+      <a href="../index.html#products">Products</a>
+      <a href="index.html"><strong>Release Notes</strong></a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../index.html#contribute">Contribute</a>
+      <a href="../index.html#sponsor">Sponsor</a>
+      <a href="https://github.com/opens2p/OpenS2P" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero compact">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Release Notes</a> / v0.7.1</p>
+      <p class="eyebrow">Enterprise MVP Baseline</p>
+      <h1>🚀 OpenS2P v0.7.1</h1>
+      <div class="badge-row">
+        <span class="status-pill demo">Demo Release</span>
+        <span class="status-pill date">Release Date: July 2026</span>
+      </div>
+      <p class="hero-sub">OpenS2P v0.7.1 establishes the first complete open-source Source-to-Pay platform baseline — procurement workflows, enterprise security, integrations, analytics, and a modern web experience, all in one release.</p>
+      <div class="release-tabs">
+        <a href="v0.7.1.html" class="active">v0.7.1 Enterprise MVP</a>
+        <a href="roadmap.html">Roadmap</a>
+        <a href="previous-releases.html">Previous Releases</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Highlights</h2>
+      <ul class="check-grid">
+        <li>Full Source-to-Pay lifecycle</li>
+        <li>Enterprise React frontend</li>
+        <li>FastAPI backend platform</li>
+        <li>Multi-tenant database architecture</li>
+        <li>Workflow automation</li>
+        <li>Analytics dashboards</li>
+        <li>Integration framework</li>
+        <li>AI-ready foundation</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Platform Overview</h2>
+      <h3 class="sub-heading">A modern procurement workspace</h3>
+      <p>Built with React, TypeScript, and Tailwind CSS, OpenS2P gives every role — from requesters to finance — a dashboard suited to their job, with role-based navigation throughout.</p>
+      <ul class="goal-grid" style="margin-top:20px;">
+        <li>Executive Dashboard</li>
+        <li>Supplier Management</li>
+        <li>Contract Management</li>
+        <li>Purchase Requisitions</li>
+        <li>Purchase Orders</li>
+        <li>Receiving</li>
+        <li>Invoice Management</li>
+        <li>Approval Inbox</li>
+        <li>Analytics</li>
+        <li>Documents</li>
+        <li>Reports</li>
+        <li>Integrations</li>
+        <li>AI Copilot Preview</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Source-to-Pay Capabilities</h2>
+
+      <h3 class="sub-heading">Supplier Management</h3>
+      <p>Onboard and manage suppliers with a full profile, status tracking, and the early foundations for performance and risk scoring.</p>
+      <ul class="bullet-list">
+        <li>Supplier onboarding</li>
+        <li>Supplier profiles</li>
+        <li>Status management</li>
+        <li>Supplier performance foundation</li>
+        <li>Supplier risk foundation</li>
+      </ul>
+
+      <h3 class="sub-heading">Contract Lifecycle Management</h3>
+      <p>A central contract repository with lifecycle tracking, renewal management, and approval workflow support.</p>
+      <ul class="bullet-list">
+        <li>Contract repository</li>
+        <li>Contract lifecycle tracking</li>
+        <li>Renewal management foundation</li>
+        <li>Approval workflow support</li>
+      </ul>
+
+      <h3 class="sub-heading">Procurement</h3>
+      <p>Create purchase requisitions with line items, route them through approvals, and convert them into purchase orders with full lifecycle management.</p>
+      <div class="flow-diagram">
+        <span class="step">Request</span><span class="arrow">→</span>
+        <span class="step">Approval</span><span class="arrow">→</span>
+        <span class="step">Purchase Order</span><span class="arrow">→</span>
+        <span class="step">Receiving</span><span class="arrow">→</span>
+        <span class="step">Invoice</span>
+      </div>
+
+      <h3 class="sub-heading">Invoice Management</h3>
+      <p>Process invoices with match-status tracking, the foundation for exception handling, and payment status tracking.</p>
+      <ul class="bullet-list">
+        <li>Invoice processing</li>
+        <li>Match status tracking</li>
+        <li>Exception handling foundation</li>
+        <li>Payment status tracking</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Workflow Engine</h2>
+      <p>An enterprise workflow service powers dynamic, multi-step approvals across the platform — with approval tasks, full history, and event publishing so other systems can react to what happens.</p>
+      <div class="flow-diagram">
+        <span class="step">PR Created</span><span class="arrow">→</span>
+        <span class="step">Manager Approval</span><span class="arrow">→</span>
+        <span class="step">Finance Approval</span><span class="arrow">→</span>
+        <span class="step">Approved</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Analytics Intelligence</h2>
+      <p>A new analytics platform surfaces spend, supplier, and contract insights out of the box.</p>
+      <ul class="bullet-list">
+        <li>Spend dashboards</li>
+        <li>Supplier analytics</li>
+        <li>Contract analytics</li>
+        <li>Cycle-time metrics</li>
+        <li>KPI engine</li>
+        <li>Report exports</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Integration Framework</h2>
+      <p>An enterprise connector architecture lays the groundwork for connecting OpenS2P to the systems you already run.</p>
+      <ul class="bullet-list">
+        <li>SAP connectors</li>
+        <li>Coupa connectors</li>
+        <li>REST connectors</li>
+        <li>Sync engine</li>
+        <li>Field mappings</li>
+        <li>Integration monitoring</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Security &amp; Administration</h2>
+      <p>Enterprise-grade security is built in from the start: JWT authentication, role-based access control, tenant isolation, audit logging, security middleware, and rate limiting.</p>
+      <h3 class="sub-heading">Roles supported out of the box</h3>
+      <ul class="pill-list">
+        <li>System Admin</li>
+        <li>Procurement Admin</li>
+        <li>Buyer</li>
+        <li>Requester</li>
+        <li>Approver</li>
+        <li>Supplier User</li>
+        <li>Finance User</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Built for Scale</h2>
+      <p>OpenS2P v0.7.1 is a substantial engineering baseline — not a prototype.</p>
+      <div class="stat-grid">
+        <div class="stat-card"><span class="stat-value">React + TS</span><span class="stat-label">Frontend</span></div>
+        <div class="stat-card"><span class="stat-value">FastAPI</span><span class="stat-label">Backend</span></div>
+        <div class="stat-card"><span class="stat-value">PostgreSQL</span><span class="stat-label">Database</span></div>
+        <div class="stat-card"><span class="stat-value">40+</span><span class="stat-label">Database tables</span></div>
+        <div class="stat-card"><span class="stat-value">130+</span><span class="stat-label">API endpoints</span></div>
+        <div class="stat-card"><span class="stat-value">193</span><span class="stat-label">Automated tests passing</span></div>
+      </div>
+      <p style="margin-top:20px; color:var(--text-muted); font-size:0.92rem;">Architecture: event-driven, with workflow automation built into the core.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Try It Yourself</h2>
+      <p>OpenS2P runs locally with a single command via Docker Compose, with database migrations and API documentation included.</p>
+      <ul class="bullet-list">
+        <li>Docker Compose one-command startup</li>
+        <li>Local development environment</li>
+        <li>API documentation</li>
+        <li>Database migrations</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Demo</h2>
+      <p>🎥 OpenS2P v0.7.1 Enterprise MVP Demo</p>
+      <!-- TODO: replace with the real demo video link/embed when available -->
+      <p class="empty-note">Demo video coming soon — check back or <a href="../index.html#contact">request a live walkthrough</a> in the meantime.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>What's Next — v0.8 AI Intelligence</h2>
+      <p>Up next: AI-powered supplier risk scoring, contract analysis, spend advisory, and a natural-language procurement copilot.</p>
+      <a class="btn btn-secondary" href="roadmap.html">See the full roadmap</a>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Contributor Invitation</h2>
+      <p>OpenS2P welcomes contributors interested in procurement technology, AI agents, enterprise integrations, workflow engines, and open-source ERP alternatives.</p>
+      <div class="link-cards">
+        <a class="card" href="https://github.com/opens2p/OpenS2P" target="_blank" rel="noopener">GitHub Repository<span>Source code, issues, and releases</span></a>
+        <!-- TODO: replace with the real demo video link when available -->
+        <a class="card" href="#demo">Demo Video<span>Coming soon</span></a>
+        <a class="card" href="https://github.com/opens2p/OpenS2P/tree/main/docs" target="_blank" rel="noopener">Architecture Docs<span>How the platform is designed</span></a>
+        <a class="card" href="https://github.com/opens2p/OpenS2P/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contributor Guide<span>How to get started contributing</span></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 OpenS2P Core Team · Apache 2.0 License</p>
+    <p><a href="mailto:opens2p@gmail.com">Contact</a> · <a href="https://www.linkedin.com/company/opens2p" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/opens2p/OpenS2P" target="_blank" rel="noopener">GitHub</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

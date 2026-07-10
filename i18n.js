@@ -18,7 +18,7 @@ const RTL_LANGS = new Set(["ar"]);
 
 const translations = {
 en: {
-  nav_vision: "Vision", nav_roadmap: "Roadmap", nav_products: "Products", nav_contact: "Contact", nav_contribute: "Contribute", nav_sponsor: "Sponsor", nav_github: "GitHub",
+  nav_vision: "Vision", nav_roadmap: "Roadmap", nav_products: "Products", nav_release_notes: "Release Notes", nav_contact: "Contact", nav_contribute: "Contribute", nav_sponsor: "Sponsor", nav_github: "GitHub",
   hero_eyebrow: "Open Source · Apache 2.0",
   hero_title: "The Open Operating System for Procurement AI",
   hero_sub: "OpenS2P is a free, open-source Source-to-Pay platform built API-first, event-driven, and AI-native from day one — so any organization, anywhere, can run modern procurement without vendor lock-in.",
@@ -65,7 +65,7 @@ en: {
   footer_rights: "© 2026 OpenS2P Core Team · Apache 2.0 License", footer_contact: "Contact"
 },
 es: {
-  nav_vision: "Visión", nav_roadmap: "Hoja de ruta", nav_products: "Productos", nav_contact: "Contacto", nav_contribute: "Contribuir", nav_sponsor: "Patrocinar", nav_github: "GitHub",
+  nav_vision: "Visión", nav_roadmap: "Hoja de ruta", nav_products: "Productos", nav_release_notes: "Notas de la versión", nav_contact: "Contacto", nav_contribute: "Contribuir", nav_sponsor: "Patrocinar", nav_github: "GitHub",
   hero_eyebrow: "Código abierto · Apache 2.0",
   hero_title: "El sistema operativo abierto para la IA de compras",
   hero_sub: "OpenS2P es una plataforma Source-to-Pay libre y de código abierto, diseñada desde el primer día con enfoque API-first, basada en eventos y nativa de IA — para que cualquier organización, en cualquier lugar, pueda gestionar compras modernas sin depender de un proveedor.",
@@ -112,7 +112,7 @@ es: {
   footer_rights: "© 2026 OpenS2P Core Team · Licencia Apache 2.0", footer_contact: "Contacto"
 },
 fr: {
-  nav_vision: "Vision", nav_roadmap: "Feuille de route", nav_products: "Produits", nav_contact: "Contact", nav_contribute: "Contribuer", nav_sponsor: "Sponsoriser", nav_github: "GitHub",
+  nav_vision: "Vision", nav_roadmap: "Feuille de route", nav_products: "Produits", nav_release_notes: "Notes de version", nav_contact: "Contact", nav_contribute: "Contribuer", nav_sponsor: "Sponsoriser", nav_github: "GitHub",
   hero_eyebrow: "Open source · Apache 2.0",
   hero_title: "Le système d'exploitation ouvert pour l'IA des achats",
   hero_sub: "OpenS2P est une plateforme Source-to-Pay libre et open source, conçue dès le départ API-first, événementielle et nativement pilotée par l'IA — pour que toute organisation, où qu'elle soit, puisse gérer des achats modernes sans dépendance à un fournisseur.",
@@ -159,7 +159,7 @@ fr: {
   footer_rights: "© 2026 OpenS2P Core Team · Licence Apache 2.0", footer_contact: "Contact"
 },
 de: {
-  nav_vision: "Vision", nav_roadmap: "Roadmap", nav_products: "Produkte", nav_contact: "Kontakt", nav_contribute: "Mitwirken", nav_sponsor: "Sponsern", nav_github: "GitHub",
+  nav_vision: "Vision", nav_roadmap: "Roadmap", nav_products: "Produkte", nav_release_notes: "Versionshinweise", nav_contact: "Kontakt", nav_contribute: "Mitwirken", nav_sponsor: "Sponsern", nav_github: "GitHub",
   hero_eyebrow: "Open Source · Apache 2.0",
   hero_title: "Das offene Betriebssystem für Beschaffungs-KI",
   hero_sub: "OpenS2P ist eine kostenlose Open-Source-Source-to-Pay-Plattform, die von Anfang an API-first, ereignisgesteuert und KI-nativ entwickelt wurde — damit jede Organisation, überall, modernes Beschaffungsmanagement ohne Anbieterbindung betreiben kann.",
@@ -206,7 +206,7 @@ de: {
   footer_rights: "© 2026 OpenS2P Core Team · Apache-2.0-Lizenz", footer_contact: "Kontakt"
 },
 pt: {
-  nav_vision: "Visão", nav_roadmap: "Roteiro", nav_products: "Produtos", nav_contact: "Contato", nav_contribute: "Contribuir", nav_sponsor: "Patrocinar", nav_github: "GitHub",
+  nav_vision: "Visão", nav_roadmap: "Roteiro", nav_products: "Produtos", nav_release_notes: "Notas de versão", nav_contact: "Contato", nav_contribute: "Contribuir", nav_sponsor: "Patrocinar", nav_github: "GitHub",
   hero_eyebrow: "Código aberto · Apache 2.0",
   hero_title: "O sistema operacional aberto para IA de compras",
   hero_sub: "OpenS2P é uma plataforma Source-to-Pay gratuita e de código aberto, construída desde o início com foco em API-first, orientada a eventos e nativa de IA — para que qualquer organização, em qualquer lugar, possa operar compras modernas sem dependência de fornecedor.",
@@ -253,7 +253,7 @@ pt: {
   footer_rights: "© 2026 OpenS2P Core Team · Licença Apache 2.0", footer_contact: "Contato"
 },
 zh: {
-  nav_vision: "愿景", nav_roadmap: "路线图", nav_products: "产品", nav_contact: "联系我们", nav_contribute: "贡献", nav_sponsor: "赞助", nav_github: "GitHub",
+  nav_vision: "愿景", nav_roadmap: "路线图", nav_products: "产品", nav_release_notes: "发布说明", nav_contact: "联系我们", nav_contribute: "贡献", nav_sponsor: "赞助", nav_github: "GitHub",
   hero_eyebrow: "开源 · Apache 2.0",
   hero_title: "采购人工智能的开放操作系统",
   hero_sub: "OpenS2P 是一个免费的开源 Source-to-Pay（采购到付款）平台，从第一天起就采用 API 优先、事件驱动和 AI 原生的设计理念——让世界各地的任何组织都能运行现代化采购流程，而无需被单一供应商锁定。",
@@ -300,7 +300,7 @@ zh: {
   footer_rights: "© 2026 OpenS2P Core Team · Apache 2.0 许可证", footer_contact: "联系我们"
 },
 ja: {
-  nav_vision: "ビジョン", nav_roadmap: "ロードマップ", nav_products: "プロダクト", nav_contact: "お問い合わせ", nav_contribute: "貢献する", nav_sponsor: "スポンサー", nav_github: "GitHub",
+  nav_vision: "ビジョン", nav_roadmap: "ロードマップ", nav_products: "プロダクト", nav_release_notes: "リリースノート", nav_contact: "お問い合わせ", nav_contribute: "貢献する", nav_sponsor: "スポンサー", nav_github: "GitHub",
   hero_eyebrow: "オープンソース · Apache 2.0",
   hero_title: "調達AIのためのオープンなオペレーティングシステム",
   hero_sub: "OpenS2Pは、APIファースト、イベント駆動、そして最初からAIネイティブに設計された、無料でオープンソースのSource-to-Payプラットフォームです。世界中のあらゆる組織が、特定ベンダーに縛られることなく最新の調達業務を運用できます。",
@@ -347,7 +347,7 @@ ja: {
   footer_rights: "© 2026 OpenS2P Core Team · Apache 2.0 ライセンス", footer_contact: "お問い合わせ"
 },
 hi: {
-  nav_vision: "विज़न", nav_roadmap: "रोडमैप", nav_products: "उत्पाद", nav_contact: "संपर्क करें", nav_contribute: "योगदान करें", nav_sponsor: "प्रायोजक बनें", nav_github: "GitHub",
+  nav_vision: "विज़न", nav_roadmap: "रोडमैप", nav_products: "उत्पाद", nav_release_notes: "रिलीज़ नोट्स", nav_contact: "संपर्क करें", nav_contribute: "योगदान करें", nav_sponsor: "प्रायोजक बनें", nav_github: "GitHub",
   hero_eyebrow: "ओपन सोर्स · Apache 2.0",
   hero_title: "प्रोक्योरमेंट AI के लिए ओपन ऑपरेटिंग सिस्टम",
   hero_sub: "OpenS2P एक निःशुल्क, ओपन-सोर्स Source-to-Pay प्लेटफ़ॉर्म है, जिसे शुरू से ही API-first, इवेंट-ड्रिवन और AI-नेटिव बनाया गया है — ताकि दुनिया भर में कोई भी संगठन बिना किसी वेंडर पर निर्भर हुए आधुनिक प्रोक्योरमेंट चला सके।",
@@ -394,7 +394,7 @@ hi: {
   footer_rights: "© 2026 OpenS2P Core Team · Apache 2.0 लाइसेंस", footer_contact: "संपर्क करें"
 },
 ar: {
-  nav_vision: "الرؤية", nav_roadmap: "خارطة الطريق", nav_products: "المنتجات", nav_contact: "تواصل معنا", nav_contribute: "ساهم معنا", nav_sponsor: "الرعاية", nav_github: "GitHub",
+  nav_vision: "الرؤية", nav_roadmap: "خارطة الطريق", nav_products: "المنتجات", nav_release_notes: "ملاحظات الإصدار", nav_contact: "تواصل معنا", nav_contribute: "ساهم معنا", nav_sponsor: "الرعاية", nav_github: "GitHub",
   hero_eyebrow: "مفتوح المصدر · Apache 2.0",
   hero_title: "نظام التشغيل المفتوح للذكاء الاصطناعي في المشتريات",
   hero_sub: "OpenS2P هي منصة Source-to-Pay مجانية ومفتوحة المصدر، مبنية منذ اليوم الأول على مبدأ API أولاً، وقائمة على الأحداث، وأصيلة في الذكاء الاصطناعي — ليتمكّن أي مؤسسة، في أي مكان، من إدارة مشتريات حديثة دون الارتباط بمورّد واحد.",
